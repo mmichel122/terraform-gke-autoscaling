@@ -1,0 +1,14 @@
+project_name = "kube-demo-2020"
+project_id   = "kube-demo-2020"
+cluster_name = "app-cluster"
+nodes_size   = "g1-small"
+network_name = "app-net"
+cidr_block   = "192.168.0.0/16"
+region       = "europe-west2"
+location     = "europe-west2-c"
+#ssh_source_ips       = ["0.0.0.0/0"]
+autoscale_min_nodes  = 0
+autoscale_max_nodes  = 1
+second_cidr_pods     = "10.0.0.0/8"
+second_cidr_services = "10.0.32.0/16"
+subnets_count        = "1"

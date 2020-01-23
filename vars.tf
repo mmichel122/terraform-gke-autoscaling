@@ -1,0 +1,14 @@
+variable "project_name" {}
+variable "project_id" {}
+variable "cluster_name" {}
+variable "nodes_size" {}
+variable "network_name" {}
+variable "cidr_block" {}
+variable "location" {}
+variable "region" {}
+variable "subnets_count" {}
+#variable "ssh_source_ips" {}
+variable "autoscale_min_nodes" {}
+variable "autoscale_max_nodes" {}
+variable "second_cidr_pods" {}
+variable "second_cidr_services" {}
