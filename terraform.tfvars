@@ -9,6 +9,6 @@ location     = "europe-west2-c"
 #ssh_source_ips       = ["0.0.0.0/0"]
 autoscale_min_nodes  = 0
 autoscale_max_nodes  = 1
-second_cidr_pods     = "10.0.0.0/8"
+second_cidr_pods     = "10.233.0.0/8"
 second_cidr_services = "10.0.32.0/16"
 subnets_count        = "1"
